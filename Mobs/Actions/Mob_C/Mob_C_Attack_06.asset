@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda4be2f96a0de34a98a906f436a40bc, type: 3}
+  m_Name: Mob_C_Attack_06
+  m_EditorClassIdentifier: 
+  actionAnimation: Mob_C_Attack_03
+  attackScore: 2
+  recoveryTime: 2.4
+  maximumAttackAngle: 50
+  minimumAttackAngle: -50
+  minimumDistanceNeededToAttack: 0
+  maximumDistanceNeededToAttack: 8
+  damage: 25
+  force: 30
+  hasSpell: 1
+  spell: {fileID: 11400000, guid: b75fd5297f801c24188bcf938bb0fa3f, type: 2}
+  spellCD: 5
