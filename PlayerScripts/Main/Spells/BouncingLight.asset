@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00e2378aac42794c8db261dae9aaf30, type: 3}
+  m_Name: BouncingLight
+  m_EditorClassIdentifier: 
+  hasQuickCast: 0
+  castingAnimation: PC_MultiTarget
+  castingAnimLayer: 2
+  regularCastHitStagger: 15
+  quickCastAnimation: 
+  quickCastAnimLayer: 0
+  quickCastHitStagger: 0
+  castSound: 
+  hitSound: 
+  quickManaCost: 0
+  normalManaCost: 40
+  cooldown: 0
+  onCooldown: 0
+  spellSprite: {fileID: 21300000, guid: 6000fa1982958a748b04bd756bd45420, type: 3}
+  quickCastSpellObject: {fileID: 0}
+  normalCastSpellObject: {fileID: 5790929336692551123, guid: 4aa97384e1bdc8246a70da6c96076297,
+    type: 3}
